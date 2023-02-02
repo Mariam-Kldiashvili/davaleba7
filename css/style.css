@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding-top: 160px;
     background-color: #F5F5F5;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     display: flex;
     flex-direction: column;
 }
@@ -16,7 +16,7 @@ header{
     max-width: inherit;
     width: inherit;
     background-color: #FFFFFF;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     padding: 45.88px 80px 58px 80px;
     position: fixed;
     top: 0;
@@ -27,11 +27,16 @@ header{
 
 }
 
+.fa-bars{
+    font-size: 50px;
+    color: #125806;
+}
+
 /* section1 */
 
 .section1{
 
-    border: 7px solid green;
+    /* border: 7px solid green; */
     width: 90%;
     margin: 0 auto;
    
@@ -60,7 +65,7 @@ header{
     background-color:  #F5F5F5;
     width: 90%;
     margin: 0 auto;
-    border: 7px solid yellowgreen;
+    /* border: 7px solid yellowgreen; */
    
 }
 
@@ -92,10 +97,10 @@ h2{
 /* footer */
 
 footer{
-    padding: 52px 73px 78px 82px;
+    padding: 52px 73px 65px 82px;
     background-color: #FFFFFF;
     
-    border: 5px solid violet;
+    /* border: 5px solid violet; */
     display: flex;
     justify-content: space-between;
 }
@@ -103,10 +108,12 @@ footer{
 h3{
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 47px;
 }
 li{
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 13px;
 }
     
     
