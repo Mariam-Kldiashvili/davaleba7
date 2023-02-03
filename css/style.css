@@ -19,6 +19,7 @@ header{
     /* border: 3px solid red; */
     padding: 45.88px 80px 58px 80px;
     position: fixed;
+    z-index: 1;
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -36,7 +37,7 @@ header{
 
 .section1{
 
-    /* border: 7px solid green; */
+    border: 7px solid green;
     width: 90%;
     margin: 0 auto;
    
